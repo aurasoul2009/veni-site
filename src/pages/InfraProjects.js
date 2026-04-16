@@ -68,7 +68,7 @@ function InfraProjects() {
 
           <a href="https://wa.me/919600557557">
             <button className="mt-8 bg-emerald-500 hover:bg-emerald-600 text-white px-7 py-3 rounded-xl shadow-xl hover:scale-110 transition-all duration-300">
-              Get a Quote
+              Get Quote
             </button>
           </a>
         </div>
