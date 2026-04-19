@@ -4,8 +4,6 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { useTranslation } from "react-i18next";
-import SectionImageCard from "../components/SectionImageCard";
-import { getStaticImage, getStaticSectionImages } from "../data/imageRegistry";
 
 function Physio() {
   const { t } = useTranslation();

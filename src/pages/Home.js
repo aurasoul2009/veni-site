@@ -7,7 +7,6 @@ import Navbar from "../components/Navbar";
 import CompanyCard from "../components/CompanyCard";
 import Footer from "../components/Footer";
 import DailyQuoteSection from "../components/DailyQuoteSection";
-import { companies } from "../data/companies";
 import { getStaticSectionImages } from "../data/imageRegistry";
 import { scrollToSectionId } from "../utils/scrollToSection";
 

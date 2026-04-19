@@ -11,9 +11,7 @@ import {
 } from "react-icons/fa";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import SectionImageCard from "../components/SectionImageCard";
 import { useTranslation } from "react-i18next";
-import { getStaticImage, getStaticSectionImages } from "../data/imageRegistry";
 import { createOrder } from "../services/firebaseContent";
 
 const productKeys = ["ramco", "dalmia", "bharathi", "aac", "solid", "paver"];

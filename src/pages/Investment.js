@@ -4,8 +4,6 @@ import Footer from "../components/Footer";
 import { motion } from "framer-motion";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
-import SectionImageCard from "../components/SectionImageCard";
-import { getStaticImage, getStaticSectionImages } from "../data/imageRegistry";
 
 function Investment() {
   const { t } = useTranslation();

@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import Footer from "../components/Footer";
 import { useTranslation } from "react-i18next";
-import SectionImageCard from "../components/SectionImageCard";
 import LoadingSpinner from "../components/LoadingSpinner";
 import { getStaticImage, getStaticSectionImages } from "../data/imageRegistry";
 import { subscribeSliderImages } from "../services/firebaseContent";
