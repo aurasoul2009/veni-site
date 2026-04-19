@@ -53,7 +53,6 @@ function Login() {
       >
         <p className="text-xs font-semibold uppercase tracking-[0.28em] text-emerald-600">Admin Access</p>
         <h1 className="mt-4 text-3xl font-bold text-slate-900">Sign in</h1>
-        <p className="mt-3 text-sm text-slate-600">Use your Firebase Authentication email and password to access the CMS dashboard.</p>
 
         <form onSubmit={handleSubmit} className="mt-8 space-y-4">
           <input
