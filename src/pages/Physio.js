@@ -251,7 +251,7 @@ const gallery = useMemo(
       <section className="bg-slate-50 px-4 pb-16 sm:px-6 lg:px-10">
         <div className="mx-auto max-w-7xl rounded-3xl border border-emerald-100 bg-white p-8 shadow-sm">
           <div className="grid items-center gap-8 md:grid-cols-[220px_1fr]">
-            <img src={getStaticImage("physio", "doctor")} alt={t("physio.doctor_name")} className="h-52 w-52 rounded-2xl object-cover" />
+            <img src="/" alt={t("physio.doctor_name")} className="h-52 w-52 rounded-2xl object-cover" />
             <div>
               <h3 className="text-2xl font-bold text-emerald-800">{t("physio.doctor_name")}</h3>
               <p className="mt-1 text-sm font-medium text-emerald-700">{t("physio.doctor_creds")}</p>
