@@ -39,7 +39,7 @@ function Investment() {
 
       <section id="about" className="scroll-mt-24 px-4 py-16 sm:px-6 lg:px-10">
         <div className="mx-auto grid max-w-7xl items-center gap-8 rounded-3xl border border-emerald-100 bg-white p-8 shadow-sm md:grid-cols-[220px_1fr]">
-          <img src={getStaticImage("investment", "advisor")} alt={t("investment.about_title")} className="h-52 w-52 rounded-2xl object-cover" />
+          <img src="/" alt={t("investment.about_title")} className="h-52 w-52 rounded-2xl object-cover" />
           <div>
             <h2 className="text-3xl font-bold text-emerald-900">{t("investment.about_title")}</h2>
             <p className="mt-1 text-sm font-medium text-emerald-700">{t("investment.about_credentials")}</p>
