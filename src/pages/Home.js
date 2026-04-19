@@ -66,7 +66,7 @@ function Home() {
   const companies = [
   {
     id: "construction",
-    title: "VENI Infra Projects Pvt Ltd",
+    title: "VENIInfra Projects Pvt Ltd",
     subtitle: "Construction",
     description:
       "End-to-end infrastructure execution for residential, industrial, and public works.",
