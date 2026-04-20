@@ -51,10 +51,10 @@
     "tagline": "Premium multi-service business group delivering construction, trading, healthcare, and investment advisory solutions.",
     "core_divisions": "Core Divisions",
     "social": "Social",
-    "division_infra": "VeniInfra Construction Pvt Ltd",
-    "division_trading": "Veni In Construction + Trading",
+    "division_infra": "VeniInfra Projects Pvt Ltd",
+    "division_trading": "Veni In Projects",
     "division_physio": "Veni In PhysioLife",
-    "division_investment": "Investment Planner",
+    "division_investment": " Veni Investment Planner",
     "copyright": "© 2026 VIP Group. All Rights Reserved."
   },
   "common": {
@@ -64,7 +64,7 @@
     "submit_request": "Submit Request",
     "send_message": "Send Message",
     "chat_whatsapp": "Chat on WhatsApp",
-    "get_quote": "Get Quote",
+    "get_quote": "Get a Quote",
     "placeholder_name": "Your Name",
     "placeholder_email": "Email Address",
     "placeholder_phone": "Phone Number",
