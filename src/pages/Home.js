@@ -250,7 +250,7 @@ function Home() {
               {t("home.cta_trading")}
             </Link>
             <a
-              href="https://wa.me/919894365298"
+              href="https://wa.me/919600557557"
               className="rounded-xl border border-white/45 bg-white/10 px-5 py-3 text-sm font-semibold text-white backdrop-blur-md transition hover:bg-white/20"
             >
               {t("common.whatsapp")}
