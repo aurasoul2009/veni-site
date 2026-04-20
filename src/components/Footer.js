@@ -53,7 +53,7 @@ function Footer() {
               <FaInstagram />
             </a>
             <a
-              href="https://wa.me/919894365298"
+              href="https://wa.me/919600557557"
               target="_blank"
               rel="noreferrer"
               className="rounded-full border border-white/20 p-2 text-lg transition hover:-translate-y-0.5 hover:text-emerald-200"
