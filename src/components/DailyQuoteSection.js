@@ -60,9 +60,6 @@ function DailyQuoteSection() {
             <div>
               <p className="text-xs uppercase tracking-[0.28em] text-emerald-300">Daily Quote</p>
               <h2 className="mt-4 text-3xl font-bold sm:text-4xl">Today&apos;s active site update</h2>
-              <p className="mt-3 max-w-md text-sm text-white/75 sm:text-base">
-                Managed from Firestore so the homepage updates instantly when the admin changes the quote.
-              </p>
             </div>
             <div className="rounded-[1.75rem] border border-white/15 bg-white/10 p-6 backdrop-blur-md sm:p-8">
               {loading ? (
