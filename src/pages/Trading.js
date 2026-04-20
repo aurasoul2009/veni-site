@@ -294,7 +294,7 @@ function Trading() {
                 {t("common.call_now")}
               </a>
               <a
-                href="https://wa.me/919894365298"
+                href="https://wa.me/919600557557"
                 className="rounded-xl border border-white/40 bg-white/10 px-5 py-2 text-sm font-semibold text-white transition hover:bg-white/20"
               >
                 {t("common.whatsapp")}
