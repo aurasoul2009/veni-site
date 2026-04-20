@@ -21,7 +21,6 @@ function DailyQuoteSection() {
         setError("");
         const latest = await getLatestQuote();
         if (!mounted) return;
-
         if (latest) {
           setQuote(latest);
           setIsFallback(false);
@@ -47,7 +46,10 @@ function DailyQuoteSection() {
   }, []);
 
   return (
-    <section id="daily-quote" className="scroll-mt-24 bg-white px-4 py-16 sm:px-6 lg:px-10">
+    <section
+      id="daily-quote"
+      className="scroll-mt-24 bg-white px-4 py-16 sm:px-6 lg:px-10"
+    >
       <div className="mx-auto max-w-7xl">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
@@ -60,22 +62,20 @@ function DailyQuoteSection() {
             alt="Daily quote background"
             className="absolute inset-0 h-full w-full object-cover opacity-20"
           />
-
           <div className="absolute inset-0 bg-gradient-to-br from-emerald-950 via-emerald-900/95 to-white/10" />
 
-          <div className="relative grid gap-8 px-6 py-10 sm:px-10 lg:grid-cols-[0.8fr_1.2fr] lg:px-14 lg:py-14">
-            
-            {/* Left Side */}
+          <div className="relative grid gap-6 px-5 py-8 sm:gap-8 sm:px-10 sm:py-10 lg:grid-cols-[0.8fr_1.2fr] lg:px-14 lg:py-14">
+            {/* Left label block */}
             <div>
               <p className="text-xs uppercase tracking-[0.28em] text-emerald-300">
                 Daily Quote
               </p>
-              <h2 className="mt-4 text-2xl font-bold sm:text-3xl lg:text-4xl">
+              <h2 className="mt-3 text-2xl font-bold sm:mt-4 sm:text-3xl lg:text-4xl">
                 Today&apos;s active site update
               </h2>
             </div>
 
-            {/* Right Side */}
+            {/* Quote card */}
             <div className="rounded-[1.75rem] border border-white/15 bg-white/10 p-5 backdrop-blur-md sm:p-8">
               {loading ? (
                 <LoadingSpinner label="Fetching today&apos;s quote..." />
@@ -87,34 +87,30 @@ function DailyQuoteSection() {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -12 }}
                     transition={{ duration: 0.45 }}
-                    className="space-y-4"
+                    className="space-y-3 sm:space-y-4"
                   >
-                    {/* ✅ Fixed Quote Text */}
-                    <p className="mx-auto max-w-xl text-base leading-relaxed text-white sm:text-lg md:text-xl">
+                    {/* ↓ Key fix: smaller base size on mobile, scales up on sm+ */}
+                    <p className="text-base leading-relaxed text-white sm:text-xl lg:text-2xl">
                       &ldquo;{quote.text}&rdquo;
                     </p>
 
-                    {/* Meta Info */}
-                    <div className="flex flex-col gap-1 text-xs text-emerald-200 sm:flex-row sm:items-center sm:justify-between sm:text-sm">
+                    <div className="flex flex-col gap-1 text-sm text-emerald-200 sm:flex-row sm:items-center sm:justify-between">
                       <footer className="font-semibold">
                         {isFallback ? "Default Quote" : "Live CMS Quote"}
                       </footer>
-
                       {quote.createdAtLabel ? (
-                        <p className="text-[10px] uppercase tracking-[0.16em] text-white/70 sm:text-xs">
+                        <p className="text-xs uppercase tracking-[0.16em] text-white/70">
                           {quote.createdAtLabel}
                         </p>
                       ) : null}
                     </div>
 
-                    {/* Error */}
                     {error ? (
-                      <p className="text-xs text-red-200 sm:text-sm">{error}</p>
+                      <p className="text-sm text-red-200">{error}</p>
                     ) : null}
 
-                    {/* Fallback Notice */}
                     {isFallback ? (
-                      <p className="text-[10px] uppercase tracking-[0.2em] text-white/55 sm:text-xs">
+                      <p className="text-xs uppercase tracking-[0.2em] text-white/55">
                         Showing default quote until Firestore data is available
                       </p>
                     ) : null}
