@@ -6,11 +6,11 @@ import ta from "./locales/ta.json";
 i18n.use(initReactI18next).init({
   resources: {
     en: { translation: en },
-    ta: { translation: ta },
+    ta: { translation: ta }
   },
   lng: "en",
   fallbackLng: "en",
-  interpolation: { escapeValue: false },
+  interpolation: { escapeValue: false }
 });
 
 export default i18n;
