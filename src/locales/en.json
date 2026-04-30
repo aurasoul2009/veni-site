@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "brand": "VIP Group",
+    "brand": "VIP Groups",
     "enquiry": "Enquiry",
     "lang_en": "EN",
     "lang_ta": "தமிழ்"
@@ -47,7 +47,7 @@
     }
   },
   "footer": {
-    "brand": "VIP Group",
+    "brand": "VIP Groups",
     "tagline": "Premium multi-service business group delivering construction, trading, healthcare, and investment advisory solutions.",
     "core_divisions": "Core Divisions",
     "social": "Social",
@@ -75,9 +75,9 @@
     "placeholder_financial_goal": "Your financial goal"
   },
   "home": {
-    "hero_eyebrow": "VIP Group | Premium Corporate Network",
+    "hero_eyebrow": "VIP Groups | Premium Corporate Network",
     "slide_0_title": "Premium Multi-Service Business Excellence",
-    "slide_0_desc": "VIP Group unites infrastructure, trading, healthcare, and investment planning under one trusted ecosystem.",
+    "slide_0_desc": "VIP Groups unites infrastructure, trading, healthcare, and investment planning under one trusted ecosystem.",
     "slide_1_title": "Engineering Growth Across Industries",
     "slide_1_desc": "From large-scale civil works to strategic materials and mobility logistics, we deliver with precision.",
     "slide_2_title": "Health, Finance, and Future-Ready Planning",
@@ -99,7 +99,7 @@
     "about_us_stat_0": "26 to 50 team members delivering multi-domain projects.",
     "about_us_stat_1": "Managed by experienced leadership under Mr. Ranjith Kumar.",
     "about_us_stat_2": "Focused on quality, commitment, and timely execution.",
-    "why_title": "Why Choose VIP Group",
+    "why_title": "Why Choose VIP Groups",
     "why_point_0": "Trusted multi-division organization with domain expertise.",
     "why_point_1": "Strong quality standards and transparent execution process.",
     "why_point_2": "Reliable service continuity from planning to delivery.",
@@ -140,7 +140,7 @@
     }
   },
   "infra": {
-    "hero_eyebrow": "VIP GROUP • CONSTRUCTION DIVISION",
+    "hero_eyebrow": "VIP GROUPS • CONSTRUCTION DIVISION",
     "hero_title": "VENI Infra Projects Pvt Ltd",
     "hero_subtitle": "Delivering high-quality construction, infrastructure, and consultancy services with precision and trust.",
     "about_title": "About VENI Infra Projects",
